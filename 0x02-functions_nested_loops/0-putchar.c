@@ -11,7 +11,7 @@ char w[9] = "_putchar";
 int counter = 0;
 for (counter = 0 ; counter < 8 ; counter++)
 {
-_putchar(c[i]);
+_putchar(w[counter]);
 }
 _putchar('\n');
 return (0);
