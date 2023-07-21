@@ -7,10 +7,14 @@
 
 void print_numbers(void)
 {
-char i;
-for (i = 0 ;i < 10 ;i++)
-{
-_putchar('0' + n);
-}
-_putchar('\n');
+	char n = 0;
+
+	while (n <= 9)
+	{
+		_putchar('0' + n);
+		n++;
+
+	}
+	_putchar('\n');
+
 }
